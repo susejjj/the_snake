@@ -154,7 +154,7 @@ class Snake(GameObject):
             pygame.draw.rect(screen, BOARD_BACKGROUND_COLOR, last_rect)
 
     def get_head_position(self):
-        """Возвращает координаты головы змейки (первый элемент списка)."""
+        """Возвращает координаты головы змейки (первый элемент списка кортежей)."""
         return self.positions[0]
 
     def reset(self):
