@@ -49,7 +49,7 @@ class Apple(GameObject):
 
     def __init__(self, snake_positions=None):
         if snake_positions is None:
-            snake_positions = [] 
+            snake_positions = []
         position = self.randomize_position(snake_positions)
         super().__init__(position, APPLE_COLOR)
 
